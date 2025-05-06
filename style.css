@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    background-color: #fff;
+    color: #1f1f1f;
+  }
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 20px;
+  }
+  .info img {
+    max-width: 300px;
+  }
+  .info-text {
+    max-width: 400px;
+    text-align: left;
+  }
+  .info-text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .info-text p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .info-text button {
+    background: transparent;
+    border: 1px solid #3d8bfd;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #3d8bfd;
+    cursor: pointer;
+  }
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .article-card {
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 250px;
+    text-align: left;
+  }
+  .article-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .article-card .content {
+    padding: 15px;
+  }
+  .article-card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .article-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .article-card a {
+    font-size: 14px;
+    color: #3d8bfd;
+    text-decoration: none;
+  }
+  .view-all-btn {
+    margin-top: 30px;
+    background: transparent;
+    border: 1px solid #3d8bfd;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #3d8bfd;
+    cursor: pointer;
+  }
+  footer {
+    background: linear-gradient(to right, #67c9f5, #6c88ff);
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer div {
+    margin: 10px;
+  }
+  footer h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  footer p, footer a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+  }
